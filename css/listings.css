@@ -124,6 +124,9 @@
   border-bottom-right-radius: 15px;
 }
 
+#model-2 {
+  background-image: url("../assets/images/cars/car-5.png");
+}
 .car-box__picture > * {
   position: absolute;
 }
@@ -327,6 +330,5 @@
   }
   .listings__filter {
     box-shadow: 0px -200px 100px rgba(121, 117, 117, 0.679);
-   
   }
 }
