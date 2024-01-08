@@ -17,11 +17,10 @@
 .products__shoping {
   gap: 21px;
   flex-wrap: wrap;
-  /* flex-direction: column; */
 }
 
 .listings-box .listings__filter {
-  background-color: #ffffff;
+  background-color: var(--primary-bg);
   filter: drop-shadow(6px 12px 24px #44444414);
   max-width: 283px;
   width: 100%;
@@ -64,7 +63,7 @@
 }
 
 .filter__form--submit span {
-  color: #ffffff;
+  color: var(--primary-bg);
 }
 
 .listings__filter .form-reset {
@@ -310,8 +309,6 @@
   .cars-box {
     flex-grow: 1;
     width: 100%;
-    /* min-width: 345px; */
-    /* padding: 0px 10px 0px 10px; */
   }
   .products__shoping {
     flex-wrap: wrap;

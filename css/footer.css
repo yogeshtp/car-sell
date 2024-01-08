@@ -1,4 +1,3 @@
-
 footer {
   background-color: var(--primary-bg);
   margin-top: 100px;
@@ -10,10 +9,10 @@ footer {
 
 .company__policy a {
   text-decoration: none;
-  color: #22232b;
+  color: var(--primary-font);
 }
 .queries__answer {
-  color: #6c46b9;
+  color: var(--dmg-support);
 }
 
 .social-icons {
@@ -21,7 +20,7 @@ footer {
 }
 
 .footer__mail {
-  border: 1px solid #6b1d57;
+  border: 1px solid var(--active-btn);
   width: 35px;
   border-radius: 7px;
   display: flex;
@@ -58,8 +57,7 @@ footer .mobFooter__container .footerContainer__disclaimer {
   line-height: 15px;
   text-align: end;
 }
-.mob__mail{
-  /* background-color: red; */
+.mob__mail {
   padding: 7px;
   border: 2.5px solid var(--active-btn);
   border-radius: 10px;
@@ -68,7 +66,7 @@ footer .mobFooter__container {
   display: none;
 }
 @media screen and (max-width: 767px) {
-  footer{
+  footer {
     margin-top: 28px;
   }
   .footer-desk {
@@ -81,8 +79,8 @@ footer .mobFooter__container {
   }
 }
 
-@media screen and (max-width:480px){
-  .mobFooter__container{
+@media screen and (max-width: 480px) {
+  .mobFooter__container {
     column-gap: 10px;
   }
 }

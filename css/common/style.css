@@ -2,8 +2,9 @@
 @import url("./color.css");
 @import url("./base.css");
 @import url("../font.css");
-@import url("./padding.css");
-@import url("./margin.css");
+@import url("./rangeCDN.css");
+@import url("../rangeSlider.css");
+
 /* components */
 @import url("../header.css");
 @import url("../search.css");
@@ -11,7 +12,6 @@
 @import url("../checkbox.css");
 @import url("../pagination.css");
 @import url("../footer.css");
-@import url("../rangeSlider.css");
 
 *,
 *:before,
