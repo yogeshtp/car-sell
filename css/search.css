@@ -20,6 +20,9 @@
   border-radius: 50%;
   padding: 7px;
 }
+.filter__form--submit {
+  margin-bottom: 8px !important;
+}
 .search__query {
   grid-area: query;
   gap: 43px;

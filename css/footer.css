@@ -58,6 +58,12 @@ footer .mobFooter__container .footerContainer__disclaimer {
   line-height: 15px;
   text-align: end;
 }
+.mob__mail{
+  /* background-color: red; */
+  padding: 7px;
+  border: 2.5px solid var(--active-btn);
+  border-radius: 10px;
+}
 footer .mobFooter__container {
   display: none;
 }
@@ -71,6 +77,12 @@ footer .mobFooter__container {
   footer .mobFooter__container {
     display: grid;
     margin-top: 39.5px;
-    padding: 0px 15px 0px 15px;
+    padding: 20px 15px 20px 15px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .mobFooter__container{
+    column-gap: 10px;
   }
 }

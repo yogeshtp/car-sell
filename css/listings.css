@@ -306,16 +306,27 @@
 
   .cars-box {
     flex-grow: 1;
+    width: 100%;
+    /* min-width: 345px; */
+    /* padding: 0px 10px 0px 10px; */
   }
-
   .products__shoping {
     flex-wrap: wrap;
-    /* margin: 0 auto; */
-    /* justify-content: center; */
   }
 
   .listings__product-box {
     margin: 0 auto;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .listings__product--container {
+    width: 345px;
+  }
+  .grid-container {
+    column-gap: 10px;
+  }
+  .listings__filter {
+    box-shadow: 0px -200px 100px rgba(121, 117, 117, 0.679);
+   
+  }
+}

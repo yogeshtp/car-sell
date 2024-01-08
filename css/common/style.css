@@ -11,6 +11,8 @@
 @import url("../checkbox.css");
 @import url("../pagination.css");
 @import url("../footer.css");
+@import url("../rangeSlider.css");
+
 *,
 *:before,
 *:after {
@@ -22,8 +24,6 @@
 
 body {
   background-color: var(--body-bg);
-  /* background-color: pink; */
-  /* overflow-x: hidden; */
   box-sizing: border-box;
   outline: 0;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .mob__filter--btn {
-  background-color: red;
+  background-image: linear-gradient(var(--grad-1-left), var(--grad-1-right));
   width: 59px;
   height: 59px;
   border-radius: 50%;
@@ -48,7 +48,6 @@ body {
   cursor: pointer;
   position: fixed;
   top: 90%;
-  /* left: 90%; */
   right: 20px;
   z-index: 4;
   display: none;
